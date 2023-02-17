@@ -141,19 +141,21 @@ img {
  @media screen and (max-width: 768px) {
 
     .container, .text-center{
-        background-color: cadetblue;
+        background-color:cornflowerblue;
         display: block;
         width: 100%;
         flex-direction: column;
+        flex-wrap: wrap;
     }
 }
 
 @media screen and (max-width: 480px) {
 
     .container, .text-center{
-        background-color: cadetblue;
+        background-color:yellowgreen;
         display: block;
         width: 100%;
         flex-direction: column;
+        flex-wrap: wrap;
     }
 }
